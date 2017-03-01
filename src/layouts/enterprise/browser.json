@@ -1,0 +1,7 @@
+{
+    "dependencies": [
+        "ie10-viewport.js",
+        { "type": "css", "url": "https://cloud.typography.com/7001714/7875752/css/fonts.css" },
+        "require: jquery"
+    ]
+}

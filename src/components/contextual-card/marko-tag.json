@@ -1,0 +1,9 @@
+{
+    "@hed": "string",
+    "@dek": "string",
+    "@list": "string",
+    "@imgURL": "string",
+    "@imgAltText": "string",
+    "@imgWidth": "number",
+    "@imgHeight": "number"
+}

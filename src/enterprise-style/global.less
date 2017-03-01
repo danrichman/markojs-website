@@ -1,0 +1,346 @@
+html, body {
+    height:100%;
+}
+
+html {
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: #2B2B2B;
+    background: #fff; //fafafa
+    position: relative
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    /* data exchange: */
+    font-weight: 700;
+    font-size: 20px;
+    color: #3D3B3B;
+    letter-spacing: 2.24px;
+    margin:0 0 20px;
+}
+
+.section-dek {
+    margin-bottom: 50px;
+    p {
+        /* Exchange generalized: */
+        font-weight: 200;
+        font-size: 15px;
+        color: #2B2B2B;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+}
+
+.mobile .navbar .logo h2 div,
+.navbar .logo h2 div {
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
+    top: 5px;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    letter-spacing: .277em;
+    //padding-left: 33px;
+    letter-spacing: 1px;
+//  background-image: url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20480%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%221.414%22%3E%3Cpath%20d%3D%22M240%2011.465c126.132%200%20228.535%20102.403%20228.535%20228.535%200%20126.132-102.403%20228.535-228.535%20228.535-126.132%200-228.535-102.403-228.535-228.535C11.465%20113.868%20113.868%2011.465%20240%2011.465zm0%2073.13c85.77%200%20155.404%2069.635%20155.404%20155.405S325.77%20395.404%20240%20395.404%2084.596%20325.77%2084.596%20240%20154.23%2084.596%20240%2084.596z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E');
+    background-position: 0 center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+.navbar .logo h2 span {
+    font-weight: 100;
+}
+
+#navbar-container.update-navbar-hide-on-desktop .navbar{opacity:0}
+#navbar-container.update-navbar-hide-on-desktop.mobile .navbar{opacity:1}
+
+.navbar {
+    height: 50px;
+    opacity: 0;
+    min-height: 0;
+    transition: all .25s ease-in-out;
+}
+
+.icon-website-logo {
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: -2px;
+    margin-right: 8px;
+    fill: #fff;
+    opacity: .3;
+    transition: opacity .25s ease-in-out;
+}
+
+.update-navbar-white {
+    .icon-website-logo {
+        fill: #163ad2;
+        opacity: .5;
+    }
+}
+
+.update-navbar-transparent .navbar {
+    opacity: 1;
+    background: 0 0;
+}
+
+.update-navbar-white {
+    .navbar {
+        opacity: 1;
+        background: rgba(255, 255, 255, .95);
+        .logo h2 div {
+            background-image: url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20480%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%221.414%22%3E%3Cpath%20d%3D%22M240%2011.465c126.132%200%20228.535%20102.403%20228.535%20228.535%200%20126.132-102.403%20228.535-228.535%20228.535-126.132%200-228.535-102.403-228.535-228.535C11.465%20113.868%20113.868%2011.465%20240%2011.465zm0%2073.13c85.77%200%20155.404%2069.635%20155.404%20155.405S325.77%20395.404%20240%20395.404%2084.596%20325.77%2084.596%20240%20154.23%2084.596%20240%2084.596z%22%20fill%3D%22%23000%22%2F%3E%3C%2Fsvg%3E');
+        }
+    }
+}
+
+.update-navbar-blue .navbar {
+    opacity: 1;
+    //background: rgba(0, 0, 0, .95);
+    @media (max-width:640px) {
+        background: #3E64BF;
+    }
+}
+
+.navbar .logo a {
+    cursor: pointer
+}
+
+.navbar .logo h2 {
+    margin: 9px 0 0;
+    height: 35px;
+}
+
+.navbar .logo h2 div {
+    text-transform: uppercase;
+    user-select: none;
+    cursor: default;
+    font-size: 20px;
+    line-height: 24px;
+    chrome-offset: 19px;
+    transition: all .25s ease-in-out;
+}
+
+
+.update-navbar-transparent .navbar .logo h2 div,
+.update-navbar-transparent .navbar .logo h2 div a {
+    color: #fff
+}
+
+.mobile.update-navbar-transparent .navbar .logo h2 div,
+.mobile.update-navbar-transparent .navbar .logo h2 div a {
+    color: #fff
+}
+
+.update-navbar-white .navbar .logo h2 div,
+.update-navbar-white .navbar .logo h2 div a {
+    color: #000
+}
+
+.update-navbar-blue .navbar .logo h2 div,
+.update-navbar-blue .navbar .logo h2 div a {
+    color: #fff
+}
+
+.navbar .hamburger {
+    display: none;
+    text-align: right;
+    margin-top: calc(6px - 1px)
+}
+
+.mobile .navbar .hamburger {
+    display: block
+}
+
+.navbar .hamburger .sign-up-link div {
+    font-size: 12px;
+    chrome-offset: 21px;
+    top: 3px;
+    line-height: 36px
+}
+
+.navbar .hamburger .sign-up-link {
+    float: right;
+    cursor: pointer;
+    width: 0;
+    opacity: 0;
+    transition: width .25s, opacity .2s;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.navbar .hamburger .sign-up-link div {
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.update-navbar-white .navbar .hamburger .sign-up-link div {
+    color: #1b1b1b
+}
+
+.navbar .hamburger .sign-up-link div .update-navbar-blue {
+    color: #fff
+}
+
+.update-navbar-show-button .navbar .hamburger .sign-up-link {
+    margin-left: 61px;
+    width: 60px;
+    opacity: 1
+}
+
+.navbar .hamburger .try-it-out {
+    float: right;
+    cursor: pointer;
+    width: 0;
+    opacity: 0;
+    transition: width .25s, opacity .2s;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.navbar .hamburger .try-it-out div {
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.navbar .links .button div,
+.navbar .links a div {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 12px;
+    color: #FFF;
+    letter-spacing: 1.34px;
+}
+
+.update-navbar-white .navbar .hamburger .try-it-out div {
+    color: #1b1b1b
+}
+
+.navbar .hamburger .try-it-out div .update-navbar-blue {
+    color: #fff
+}
+
+.update-navbar-show-button .navbar .hamburger .try-it-out {
+    margin-left: 61px;
+    width: 100px;
+    opacity: 1
+}
+
+.navbar .links .button {
+    user-select: none;
+    display: inline-block;
+    height: calc(7 * 5px);
+    margin: 7px 0 2px;
+    text-align: center;
+    white-space: nowrap;
+    //box-shadow: 0 14px 34px -10px rgba(0, 0, 0, .15), 0 14px 34px -10px rgba(0, 0, 0, .15);
+    cursor: pointer;
+    float: right;
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: width .25s, box-shadow 1s;
+    /* Rectangle 4: */
+    background: #38AA78;
+    border-radius: 4.26px;
+}
+
+.navbar .links .button div {
+    color: #fff;
+    overflow: hidden;
+    margin-top: 2px;
+    line-height: 1.8;
+    chrome-offset: 25px;
+    top: 5px;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1.34px;
+}
+
+//@media (max-width:767px) {
+// .navbar .links .button div {
+//     font-family: "Avenir LT Std Book", sans-serif;
+//     font-size: 14px;
+//     line-height: 42px;
+//     -webkit-font-smoothing: antialiased;
+//     chrome-offset: 25px;
+//     position: relative;
+//     top: 5px
+// }
+//}
+
+.update-navbar-show-button .navbar .links .button {
+    margin-left: 61px;
+    width: 143px;
+    @media (max-width:640px) {
+        width:131px;
+    }
+}
+
+// .navbar .links .button:hover {
+//     //box-shadow: 0 14px 40px -10px rgba(0, 0, 0, .25), 0 14px 40px -10px rgba(0, 0, 0, .25)
+// }
+
+.update-navbar-white .navbar .hamburger .try-it-out div {
+    color: #1b1b1b
+}
+
+.navbar .hamburger .try-it-out div .update-navbar-blue {
+    color: #fff
+}
+
+.update-navbar-show-button .navbar .hamburger .try-it-out {
+    margin-left: 61px;
+    width: 100px;
+    opacity: 1
+}
+
+// .mobile .navbar .links {
+//     display: none
+// }
+
+.navbar .links a {
+    display: inline-block;
+    margin: 24px 0 0 30px;
+    float: right;
+    opacity: .8;
+    height: 54px
+}
+
+.navbar .links a div {
+    line-height: 36px;
+    chrome-offset: 22px;
+    top: 2px;
+    color: #fff
+}
+
+.update-navbar-white .navbar .links a div {
+    color: #72778C
+}
+
+.navbar .links a div .update-navbar-blue {
+    color: #fff
+}
+
+.navbar .links a:active,
+.navbar .links a:hover {
+    opacity: 1;
+    text-decoration: none
+}

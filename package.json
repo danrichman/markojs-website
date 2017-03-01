@@ -1,0 +1,44 @@
+{
+  "name": "Website",
+  "version": "1.0.0",
+  "description": "Marko website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "base",
+    "project",
+    "node",
+    "express",
+    "structure"
+  ],
+  "author": "Dan Richman",
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "body-parser": "^1.15.2",
+    "dateformat": "^2.0.0",
+    "email-validator": "^1.0.7",
+    "express": "^4.14.0",
+    "form-data": "^2.1.2",
+    "gsap": "^1.19.0",
+    "jquery": "^3.1.1",
+    "lasso": "^2.9.0",
+    "lasso-autoprefixer": "^2.0.0",
+    "lasso-imagemin": "^1.0.7",
+    "lasso-less": "^2.3.1",
+    "lasso-marko": "^2.2.0",
+    "lasso-sass": "^1.1.9",
+    "marko": "latest-beta",
+    "multer": "^1.2.1",
+    "node-sass": "^4.1.1",
+    "request": "^2.79.0",
+    "require-self-ref": "^2.0.1",
+    "whatwg-fetch": "^2.0.1",
+    "wowjs": "^1.1.3"
+  },
+  "devDependencies": {
+    "browser-refresh-taglib": "^1.1.0"
+  }
+}

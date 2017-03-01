@@ -1,0 +1,15 @@
+{
+    "dependencies": [
+        "~/src/enterprise-style/browser.json",
+        "~/src/layouts/enterprise/browser.json",
+        "~/node_modules/gsap/src/uncompressed/TweenLite.js",
+        "./assets/animate.css",
+        "./assets/enterprise.less",
+        "./assets/requestAnimationFrame.js",
+        "./assets/networkAnimations.js",
+        "~/node_modules/wowjs/dist/wow.js",
+        "./assets/page.js",
+        "./assets/postToGoogle.js",
+        "require: ~/src/components/contextual-card"
+    ]
+}

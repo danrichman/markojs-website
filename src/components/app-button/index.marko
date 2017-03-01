@@ -1,0 +1,13 @@
+var variantClassName = (state.variant !== 'primary' && 'btn-' + state.variant);
+var sizeClassName = (state.size !== 'normal' && 'btn-' + state.size);
+
+<button type="${state.type}" class=[
+        'app-button',
+        variantClassName,
+        sizeClassName,
+        state.className
+    ] ${state.attrs} disabled=(state.disabled ? true : false) onClick("handleClick")>
+    <span>
+        <include(state.body)/>
+    </span>
+</button>
