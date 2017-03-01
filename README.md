@@ -1,5 +1,5 @@
 # marko-website-example
-Built with Marko.js (v4 beta)
+Built with [Marko.js](http://markojs.com/) (v4)
 
 ### Install
 
